@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*::selection {
+  color: #864de0;
+}
+
+/* .border-animation {
+  position: relative;
+  overflow: hidden;
+}
+
+.border-animation::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #6d28d9;
+  transition: width 0.3s ease;
+}
+
+.border-animation.active::before {
+  width: 100%;
+} */
