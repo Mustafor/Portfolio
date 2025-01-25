@@ -32,7 +32,7 @@ const Projects = {
     {
       id: 4,
       name: "Spotify",
-      img: "/spotify.png",
+      img: "/spotify.jpg",
       demo: "https://spotify-weld-eight.vercel.app/",
       github: "https://github.com/Mustafor/SPOTIFY",
       description:
